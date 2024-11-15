@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <title>Peluqueria Gatos y Perros</title>
+
+    <!-- Bootstrap -->
+	  
+	  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	  <link href="style.css" rel="stylesheet">
+	  
+  </head>
+
+  <body data-spy="scroll" data-target="#navbar">
+
+    	<nav class="navbar navbar-fixed-top navbar-custom" id="navbar">
+	  		<div class="container">
+				<a class="navbar-brand" href="#logo">
+            <img src="img/logo_nav.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+				<div class="navbar-header">							
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+
+					<span class="icon-bar"></span>	
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="indx.html">Peluquería Gatos y Perros</a>
+				</div>	
+			
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#inicio">Inicio</a></li>
+					<li><a href="#nosotros">Nosotros</a></li>		
+					<li><a href="#servicios">Servicios</a></li>
+					<li><a href="#contacto">Contacto</a></li>
+				 	</ul>
+				</div>	
+			</div>
+	  	
+	  	</nav>
+
+   		<div class="cover" id="inicio">
+	  		<div class="cover-text">
+				<h1>¡Mima a tu mejor amigo con un cambio de look!</h1>
+				<p class="lead">¡Un pelaje sano y brillante es sinónimo de una mascota feliz! Contamos con productos de alta calidad y profesionales altamente capacitados para cuidar de tu amigo peludo. ¡Agenda una cita hoy mismo!</p>
+			
+	  			<a href="#nosotros" role="button" class="mi-boton">Conócenos</a>
+			</div>
+	  	</div>
+
+	  	<section class="testimonial">
+			<div class="container">
+				<blockquote>
+					&ldquo; Llevo a mi perro Max, un golden retriever, aquí desde hace un año, y siempre salimos contentos. Lo tratan con cariño, queda perfecto, y se nota que disfrutan lo que hacen. ¡Recomendado 100%! &rdquo;
+					<cite>&mdash; Carla R., una cliente feliz</cite>
+				</blockquote>
+			</div>
+	  	</section>
+	  
+	  	<section id="nosotros" style="text-align: center">
+	  		<h2>Peluquería de Gatos y Perros</h2>
+	  			<div class="container">
+					<div class="row">
+						<div class="col-sm-4">
+							<h3>Nuestros valores</h3>
+							<p>En nuestra peluquería, valoramos la dedicación, el respeto y la confianza, que son la base de cada uno de nuestros servicios. Creemos en la importancia de escuchar a nuestros clientes y entender sus necesidades para ofrecer soluciones personalizadas. Nuestro compromiso con el bienestar y la satisfacción de cada persona y mascota que nos visita es nuestra principal motivación.</p>
+						</div>
+						<div class="col-sm-4">
+							<h3>Experiencia</h3>
+							<p>Contamos con años de experiencia en el cuidado y embellecimiento, respaldados por profesionales altamente capacitados y apasionados por su labor. Gracias a nuestra constante actualización y dedicación, brindamos a nuestros clientes un servicio que combina técnicas modernas con la sensibilidad y el trato cercano que nos caracteriza.</p>
+						</div>
+						<div class="col-sm-4">
+							<h3>Excelencia</h3>
+							<p>Nuestro compromiso con la excelencia nos impulsa a superar las expectativas de cada cliente. Nos esforzamos por ofrecer un servicio impecable en cada visita, garantizando un ambiente seguro, limpio y acogedor. La calidad y dedicación en cada detalle son nuestras señas de identidad, reflejando el alto estándar que hemos establecido en todos nuestros servicios.</p>
+						</div>
+					
+					</div>
+				</div>
+	  	</section>
+	  
+	  <section id="servicios">
+		<h2>Nuestros servicios</h2>
+		  <div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<img src="img/perro-banado2.jpg" class="img-circle">
+					<h4>Bañado y cepillado</h4>
+					<p>Incluye el baño con productos específicos para el tipo de pelaje, cepillado, y limpieza de orejas y ojos.</p>	
+				</div>
+				
+				<div class="col-sm-3">
+					<img src="img/corte-gato2.jpg" class="img-circle">
+					<h4>Corte de pelo y estilizado</h4>
+					<p>Cortes según la raza, preferencias del dueño, o estilo personalizado, siempre con técnicas cuidadosas y seguras.</p>	
+				</div>
+				
+				<div class="col-sm-3">
+					<img src="img/corte-unas2.jpg" class="img-circle">
+					<h4>Corte de Uñas</h4>
+					<p>Recorte adecuado para mantener la comodidad y salud de las patas de la mascota.</p>	
+				</div>
+				
+				<div class="col-sm-3">
+					<img src="img/limpieza-diente2.jpg" class="img-circle">
+					<h4>Limpieza de dientes</h4>
+					<p>Cuidado dental básico para prevenir la acumulación de placa y el mal aliento.</p>	
+				</div>
+				
+			</div>
+		  
+		 </div>
+	  </section>
+	  
+	 <section id="contacto">
+	  	<div class="contact_form">
+			<div class="formulario">			
+      <h5>Formulario de contacto</h5>
+				<h6>Escríbenos y en breve nos pondremos en contacto contigo</h6>
+
+					<form action="submeter-formulario.php" method="post">				
+						
+								<p>
+									<label for="nombre" class="colocar_nombre">Nombre
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+								</p>
+							
+								<p>
+									<label for="email" class="colocar_email">Email
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+								</p>
+							
+								<p>
+									<label for="mensaje" class="colocar_mensaje">Mensaje
+										<span class="obligatorio">*</span>
+									</label>                     
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                </p>	  								
+							
+								<button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+								<p class="aviso">
+									<span class="obligatorio"> * </span>los campos son obligatorios.
+								</p>					
+						
+					</form>
+		</div>	
+	</div>
+	  </section> -->
+	  
+	  <footer class="text-center py-4 bg-light">
+    	<p>Copyright © 2024. Todos los derechos reservados a Peluquería de Mascotas Gatos y Perros.</p>
+    	<p>Visítanos y dale a tu mascota el cuidado que se merece. ¡Amor y bienestar en cada servicio!</p>
+		</footer>
+
+  </body>
+</html>
